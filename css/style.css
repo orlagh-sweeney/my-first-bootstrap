@@ -4,6 +4,13 @@ body {
 
 /* Containers */
 
+.container-wrapper {}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -18,6 +25,7 @@ body {
     border: 1px solid transparent;
     border-radius: 0;
 }
+
 
 .callout-container {
     height: 100vh;
@@ -42,6 +50,11 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* Navbar */
@@ -74,6 +87,24 @@ body {
     font-weight: bold;
 }
 
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* Quotes */
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
 /* Block dividers */
 
 .block-divider {
@@ -89,6 +120,10 @@ body {
 
 .block-divider--short {
     width: 35px;
+}
+
+.block-divider--white {
+    background-color: white;
 }
 
 /* Jumbotron */
@@ -136,4 +171,27 @@ body {
     background-color: #df4929;
     border-color: #df4929;
     color: white;
+}
+
+/* Features */
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
 }
